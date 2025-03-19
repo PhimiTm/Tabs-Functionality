@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="tabs-container">
+        <!-- Tab Buttons -->
+        <div class="tabs">
+            <button class="tab active" data-tab="tab1">First Tab</button>
+            <button class="tab" data-tab="tab2">Second Tab</button>
+            <button class="tab" data-tab="tab3">Third Tab</button>
+            <button class="tab" data-tab="tab4">Fourth Tab</button>
+        </div>
+    
+
+    <!-- Tab Heading (Separate from Tab Container) -->
+    <p id="tab-heading" class="tab-heading">This is the first tab. One is the first number. A is the first alphabet.</p>
+
+    <!-- Tab Container (Black Box) -->
+    <div class="tab-container">
+        <div id="tab1" class="tab-content active">First Tab content to be displayed here.</div>
+        <div id="tab2" class="tab-content">Second Tab content to be displayed here.</div>
+        <div id="tab3" class="tab-content">Third Tab content to be displayed here.</div>
+        <div id="tab4" class="tab-content">Fourth Tab content to be displayed here.</div>
+    </div>
+
+    <!-- Tab Paragraph (Separate from Tab Container)
+     <p id="tab-heading" class="tab-heading">This is the first tab. One is the first number. A is the first alphabet.</p> -->
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
